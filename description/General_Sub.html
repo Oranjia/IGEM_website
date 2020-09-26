@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>General Page</title>
+  <meta charset="utf-8">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen and (min-width:300px)">
+  <link rel="stylesheet" type="text/css" href="new_General_Sub.css">
+</head>
+<body>
+    <!--导航栏-->
+    <nav id="navbar-example" class="navbar navbar-default navbar-static navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!--隐藏式导航栏按钮-->
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="logo_chara.png" class="logo_container">
+          </a>
+          <a class="nav_bar_logo" href="#">
+            <img src="logo_pic.png" class="logo_container" id="slim_logo">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse bs-example-js-navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li>
+              <a class="nav_text" href="#">HOME</a>
+            </li>
+            <li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                TEAM
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="#">Members</a></li>
+                <li><a href="#">Collaborations</a></li>
+                <li><a href="#">Attributions</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="drop2" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                PROJECT
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop2">
+                <li><a href="#">Description</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Notebook</a></li>
+                <li><a href="#">Demonstration</a></li>
+                <li><a href="#">Contribution</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Safety</a></li>
+                <li><a href="#">Parternship</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                PARTS
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop3">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Basic Part</a></li>
+                <li><a href="#">Composite Part</a></li>
+                <li><a href="#">Part Collection</a></li>
+                <li><a href="#">Improvements</a></li>
+              </ul>
+            </li>
+            <li>
+              <a id="drop4" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                MODEL
+                <!-- <span class="caret"></span> -->
+              </a>
+            </li>
+            <li class="dropdown">
+              <a id="drop5" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                HUMAN PRACTICES
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop5">
+                <li><a href="#">Human Practices</a></li>
+                <li><a href="#">Engagement</a></li>
+                <li><a href="#">Implementation</a></li>
+                <li><a href="#">Education</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li id="fat-menu" class="dropdown">
+              <a id="drop3" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop3">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul> -->
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--主页面-->
+    <!--被覆盖的图片界面-->
+    <div class="general_background_image"></div>
+    <!--覆盖第一页的图片界面-->
+    <div class="container">
+        <div class="row general_cover_image">
+        </div>
+    </div>
+    <!--详细信息界面-->
+    <div class="info_section">
+      <div class="container general_info">
+        <div class="row" id="general_info_contain">
+          <!--左边的导航-->
+          <div class="col-md-2 col-sm-2 general_left_nav">
+            <div class="left_nav">
+              <h4>Title</h4>
+              <ul>
+                <li class="general_sidenav_li"><a href="#general_info_ele_1" class="general_sidenav_a" id="sidenav_1">First</a></li>
+                <li class="general_sidenav_li"><a href="#general_info_ele_2" class="general_sidenav_a" id="sidenav_2">Second</a></li>
+                <li class="general_sidenav_li"><a href="#general_info_ele_3" class="general_sidenav_a" id="sidenav_3">Third</a></li>
+                <li class="general_sidenav_li"><a href="#general_info_ele_4" class="general_sidenav_a" id="sidenav_4">Fourth</a></li>
+                <li class="general_sidenav_li"><a href="#general_info_ele_5" class="general_sidenav_a" id="sidenav_5">Fifth</a></li>
+              </ul>
+            </div>
+          </div>
+            <!--右边的信息-->
+            <div class="col-md-10 col-sm-10 general_right_info">
+            <!--1. DISCOVER PART-->
+            <!--peasant-->
+            <div class="row general_info_element" id="general_info_ele_1">
+              <h3 style="border: none;">DISCOVER</h3>
+              <h4>The birth of SLIM</h4>
+              <p>Lead pollution is a typical type of heavy metal pollution in soil. The stable lead ions in soil can accumulate through crops, and finally enter human body, causing great impact on the ecosystem and human health. In 2018, the Chinese government issued the soil risk control standards for agricultural land, in which the quality and safety of edible agricultural products were taken as the standard to set the screening value and control value of soil pollution risk in agricultural land. When the lead content of cultivated land exceeds the screening value, the quality and safety of agricultural products may be at risk, while the risk is higher when the lead content exceeds the control value. Survey data show that the problem of lead pollution in arable land in China is widespread, and the lead concentration in polluted arable land is mostly in the range above the screened value and the highest near the controlled value. 
+			  </p>
+              <div class="col-md-4 col-sm-12">
+                <img src="https://2020.igem.org/wiki/images/9/9f/T--NAU-CHINA--description1.png" >
+              </div>
+              <div class="col-md-8 col-sm-12">
+				  <img src="https://2020.igem.org/wiki/images/3/3b/T--NAU-CHINA--description2.png" >
+				  <img src="https://2020.igem.org/wiki/images/3/31/T--NAU-CHINA--description3.png" style="margin-top: 40px;">
+                </div>
+            </div>
+            <div class="row general_info_element" id="general_info_ele_1">
+              <h3>SUB TITLE ONE</h3>
+<!--              <div class="col-md-4 col-sm-12">
+                <img src="img/1-1.jpg">
+              </div> -->
+              <div class="col-md-12 col-sm-12">
+                <p>Now, more mature treatment methods of physical and chemical solidification combined with phytoremediation have been developed for lead-contaminated farmland far beyond the controlled value.  However, no adequate treatment measures have been taken for farmlands with mild to moderate lead pollution that exceed the screened values but do not exceed the controlled values. What is important is that these cultivated lands are still playing a productive role. The combination of physical and chemical solidification with phytoremediation will have a negative impact on the productive efficiency of the original cultivated lands, and the crops produced in these cultivated lands will also pose a threat to people's health and safety. This has brought challenges and inspirations to our project, and our team hopes to fill this gap and reasonably solve the problem of lead pollution in light and moderate arable land.</p>
+                <!-- <h4>sub sub title</h4> -->
+                <p>In the cultivated land that still gives full play to its production performance, the microbial adsorption and plant enrichment remediation treatments have some problems, such as the difficulty in ensuring the survival rate of microorganisms and the impact of planting a large number of lead-enriched plants on the production efficiency of cultivated land, which makes these two methods have certain application bottlenecks. to avoid these two problems, our team decided to consider the treatment of lead pollution from a new perspective.</p>
+				<p>At this point, we were inspired by the research on lead fixation. Lead in soil forms extremely stable pyromorphite in the presence of sufficient soluble phosphate [Pb5(PO4)3X (X = Cl, F, OH)], with a Ksp of about 10-60 — 10-85. It has passed the EPA standard of the United States, and it’s unable to extract effective lead through the TCLP method. Then we have a goal in mind, hoping that lead ions will eventually form such an extremely stable mineral.</p>
+				<img src="https://2020.igem.org/wiki/images/6/63/T--NAU-CHINA--description4.png" >
+			  </div>
+            </div>
+            <div class="row general_info_element" id="general_info_ele_2">
+              <h3>SUB TITLE TWO</h3>
+              <div class="col-md-12 col-sm-12">
+                <p>Since the main component of the pyromorphite crystal is phosphate PO43-, and most of the phosphorus in the soil is in the form of insoluble, and the soil environment is very complex, heavy metals are relatively dispersed in the soil environment. So to achieve our goal, we need a significant amount of soluble phosphate and some way of accumulating the heavy metal lead relatively. The native phosphorus-solubilizing microorganisms in the soil and native earthworms provide us with great help. Soil phosphorus-soluble microorganisms can convert insoluble phosphorus from soil to soluble phosphorus by secreting phosphorus-soluble enzymes and organic acids. As an indigenous earthworm in the soil, earthworms have certain tolerance and enrichment ability to heavy metals. Therefore, earthworms can live in the soil polluted by heavy metals and accumulate heavy metal ions in their bodies. Some of these heavy metal ions are absorbed by their own tissues and others are excreted in the faeces. The intestinal tract of earthworm is considered to be a suitable habitat for microorganisms due to its suitable physical and chemical properties, and can be a good culture medium for our selected engineering bacteria.</p>
+                <!-- <h4>sub sub title</h4> -->
+                <p>Therefore, our project plans to use earthworms as a mobile carrier for heavy metal treatment, and use bacillus subtilis, the dominant symbiotic bacterium in the intestine, as an engineering bacterium to achieve the enrichment and fixation process of heavy metals. Earthworms can accumulate heavy metal lead ions in soil by intaking the soil, and we use the toehold switch based on the oxygen restriction switch in Bacillus subtilis. As a result, the engineered bacteria can secrete phytase, which has similar function with phosphatase in the earthworm intestines, and release the phosphorus element in the soil eaten by earthworms together with organic acid, the metabolite of Bacillus subtilis itself, then two compounds working together to form pyromorphite in the intestines of earthworms and complete the fixation of lead. Finally, the pyromorphite is discharged with earthworm intestinal excrement, and the engineered bacteria are discharged into the external aerobic environment. Under the joint action of oxygen limit switch and Toehold switch, the suicide module is opened to make the engineered bacteria commit suicide. </p>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <img src="https://2020.igem.org/wiki/images/0/06/T--NAU-CHINA--description5.png"  >
+              </div>
+			  <div class="col-md-6 col-sm-12">
+			    <img src="https://2020.igem.org/wiki/images/0/0d/T--NAU-CHINA--description6.png"style="width: 70%;" >
+			  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="new_General_Sub.js"></script>
+</body>
+</html>
